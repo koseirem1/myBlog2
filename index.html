@@ -1,15 +1,20 @@
 <!DOCTYPE html>
-<html lang="tr">
+<html lang="tr-TR">
 
 <head>
   <title>Bootstrap Example</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <style>
-  #demo{
-    background-color: #333333;}
-    </style>
+    #demo {
+      background-color: #333333;
+    }
+  </style>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+    integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/main.css"/>
 </head>
 
 <body>
@@ -55,7 +60,7 @@
         <li data-target="#demo" data-slide-to="1"></li>
         <li data-target="#demo" data-slide-to="2"></li>
       </ul>
-      
+
       <!-- The slideshow -->
       <div class="carousel-inner">
         <div class="carousel-item active">
@@ -68,7 +73,7 @@
           <img src="images/ny.jpg" alt="New York" width="1100" height="500">
         </div>
       </div>
-      
+
       <!-- Left and right controls -->
       <a class="carousel-control-prev" href="#demo" data-slide="prev">
         <span class="carousel-control-prev-icon"></span>
@@ -77,69 +82,85 @@
         <span class="carousel-control-next-icon"></span>
       </a>
     </div>
-    
+
     <div class="row my-2">
       <div class="col-3">
         <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
-          <a class="nav-link active" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true">C#</a>
-          <a class="nav-link" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile" role="tab" aria-controls="v-pills-profile" aria-selected="false">.NET Core</a>
-          <a class="nav-link" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-messages" role="tab" aria-controls="v-pills-messages" aria-selected="false">Angular</a>
-          <a class="nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings" role="tab" aria-controls="v-pills-settings" aria-selected="false">Ionic</a>
+          <a class="nav-link active" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab"
+            aria-controls="v-pills-home" aria-selected="true">C#</a>
+          <a class="nav-link" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile" role="tab"
+            aria-controls="v-pills-profile" aria-selected="false">.NET Core</a>
+          <a class="nav-link" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-messages" role="tab"
+            aria-controls="v-pills-messages" aria-selected="false">Angular</a>
+          <a class="nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings" role="tab"
+            aria-controls="v-pills-settings" aria-selected="false">Ionic</a>
         </div>
       </div>
       <div class="col-9">
         <div class="tab-content" id="v-pills-tabContent">
           <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
-          <div class="row">
-            <div class="col-md-4">
-              <div class="card" style="height:380px;">
-                <img src="images/hospital.jpg" class="card-img-top" alt="Hastane Randevu Sistemi">
-                <div class="card-body">
-                  <h5 class="card-title">Randevu Sistemi</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                  <a href="#" class="btn btn-primary">Ayrıntılar</a>
+            <div class="row">
+              <div class="col-md-4">
+                <div class="card d-block" style="height:420px">
+                  <img src="images/hospital.jpg" class="card-img-top" alt="Hastane Randevu Sistemi">
+                  <div class="card-body">
+                    <h5 class="card-title">Randevu Sistemi</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                      card's content.</p>
+                    <a href="#" class="btn btn-primary"
+                      style="position: absolute;bottom: 15px;right: 10px;">Ayrıntılar</a>
+                  </div>
                 </div>
-               </div>
               </div>
               <div class="col-md-4">
-                <div class="card" style="height:380px;">
+                <div class="card d-block" style="height:420px">
                   <img src="images/library.jpg" class="card-img-top" alt="Kütüphane Uygulaması">
                   <div class="card-body">
                     <h5 class="card-title">Kütüphane Uygulaması</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="#" class="btn btn-primary">Ayrıntılar</a>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                      card's content.</p>
+                    <a href="#" class="btn btn-primary"
+                      style="position: absolute;bottom: 15px;right: 10px;">Ayrıntılar</a>
                   </div>
-                 </div>
                 </div>
-                <div class="col-md-4">
-                  <div class="card" style="height:380px;">
-                    <img src="images/words.jpg" class="card-img-top" alt="Kelimeler">
-                    <div class="card-body">
-                      <h5 class="card-title">Kelime İşlemci</h5>
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                      <a href="#" class="btn btn-primary">Ayrıntılar</a>
-                    </div>
-                   </div>
+              </div>
+              <div class="col-md-4">
+                <div class="card d-block" style="height:420px">
+                  <img src="images/words.jpg" class="card-img-top" alt="Kelimeler">
+                  <div class="card-body">
+                    <h5 class="card-title">Kelime İşlemci</h5>
+                    <p class="card-text">Kelimeler</p>
+                    <a href="#" class="btn btn-primary"
+                      style="position: absolute;bottom: 15px;right: 10px;">Ayrıntılar</a>
                   </div>
-                  
-
+                </div>
+              </div>
             </div>
           </div>
-        </div>
 
-          <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">...</div>
-          <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">...</div>
-          <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab">...</div>
+          <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">.a..
+          </div>
+          <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">.b..
+          </div>
+          <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab">..c.
+          </div>
         </div>
       </div>
     </div>
 
-   
+
+
     <footer class="footer bg-dark text-light p-3">
       <div class="row">
         <div class="col-md-3">
           <h5>Hakkında</h5>
           <p> Bu benim kişisel web sitemdir.</p>
+          <div class="social-media">
+            <a href=""><i class="fab fa-instagram"></i></a>
+            <a href=""><i class="fab fa-twitter"></i></a>
+            <a href="https://tr.linkedin.com/in/irem-k%C3%B6se-4b3a88166"><i class="fab fa-linkedin"></i></a>
+            <a href="https://github.com/koseirem1"><i class="fab fa-github"></i></a>
+          </div>
         </div>
         <div class="col-md-3">
           <h5>Bağlantılar</h5>
@@ -162,12 +183,19 @@
           <p>&copy; 2019- Her hakkı saklıdır.</p>
         </div>
       </div>
+
     </footer>
 
   </div>
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
 </body>
 
 </html>
